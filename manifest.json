@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Redirect to Google",
+    "version": "1.0",
+    "description": "Automatically redirects Bing to Google",
+    "permissions": [
+      "webNavigation",
+      "tabs",
+      "activeTab"
+    ],
+    "host_permissions": [
+      "*://*.bing.com/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
