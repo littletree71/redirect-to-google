@@ -9,7 +9,7 @@ This Chrome extension automatically redirects Bing searches to Google, preventin
 
 1. **Clone or Download the Repository:**
    ```bash
-   git clone 
+   git clone https://github.com/littletree71/redirect-to-google
    ```
    Or download the repository as a ZIP file and extract it.
 
